@@ -39,7 +39,16 @@ This project implements a memory management engine that handles paging and virtu
 - Written in **C/C++**  
 - Uses **LRU algorithm** for page replacement  
 - Handles both **main memory** and **virtual memory**  
-- Simulates process execution with **basic arithmetic operations**  
+- Simulates process execution with **basic arithmetic operations**
+
+## ▶️ Usage
+
+### Compiling
+g++ -o memoryEngine main.cpp Process.cpp MemoryManager.cpp
+### Executing
+./memoryEngine -M <main_memory_size> -V <virtual_memory_size> -P <page_size> -i <input_file> -o <output_file>
+
+
 
 ---
 
